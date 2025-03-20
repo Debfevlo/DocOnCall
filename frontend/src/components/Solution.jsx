@@ -8,8 +8,8 @@ import { RiLightbulbFlashLine } from "react-icons/ri";
 const Solution = () => {
   return (
     <div className='mt-10 md:mt-16 flex flex-col items-center justify-center gap-2'>
-        <p className='text-center text-secondary font-medium text-base'>Fastest Solution</p>
-        <p className='text-2xl md:text-3xl'>4 easy steps to get you solution</p>
+        <p className='text-center text-secondary font-medium text-sm sm:text-base'>Fastest Solution</p>
+        <p className='text-xl sm:text-2xl md:text-3xl text-center mt-2 font-semibold'>4 easy steps to get you solution</p>
 
         <div className='p-6 flex flex-col md:flex-row items-center justify-center gap-8 text-center'>
                 <div className='flex flex-col gap-2  items-center justify-center p-6 cursor-pointer hover:scale-105 transition-all'>

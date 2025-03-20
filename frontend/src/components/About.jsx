@@ -9,9 +9,9 @@ const About = () => {
   {/* Section Header */}
   <div className="flex justify-center flex-row gap-2 items-start px-4 min-w-48">
     <hr className="h-0.5 m-auto bg-secondary w-1/4 border-none outline-none" />
-    <p className="text-center text-secondary font-medium text-base">Why choose us</p>
+    <p className="text-center text-secondary font-medium text-sm sm:text-base">Why choose us</p>
   </div>
-  <p className="text-2xl md:text-3xl">About Us</p>
+  <p className="text-xl sm:text-2xl md:text-3xl text-center mt-2 font-semibold">About Us</p>
 
  
   <div className="flex flex-col md:flex-row items-center md:items-start gap-6 p-6">

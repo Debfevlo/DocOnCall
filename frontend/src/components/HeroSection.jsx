@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className='md:w-1/2 flex flex-col items-start justify-center gap-6 m-auto py-4 md:py-[8vw] md:mb-[-30px]'>
             <div className='flex justify-center flex-row gap-2 items-start  px-4 min-w-48 '>
                 <hr  className='h-0.5 m-auto bg-secondary w-1/4 border-none outline-none '/>
-                <p className='text-base text-secondary font-medium'>Why choose us </p>
+                <p className='text-center text-secondary font-medium text-sm sm:text-base'>Why choose us </p>
             </div>
             <p className='text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight text-white  '>
                 Comprehensive Healthcare, <br />Just a Click Away.

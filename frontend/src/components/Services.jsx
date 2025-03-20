@@ -7,8 +7,8 @@ import { FaMicroscope } from "react-icons/fa";
 const Services = () => {
   return (
     <div className='mt-10 md:mt-16 flex flex-col items-center justify-center gap-2'>
-        <p className='text-center text-secondary font-medium text-base'>Comprehensive Healthcare</p>
-        <p className='text-2xl md:text-3xl'>Our Medical Health Services</p>
+        <p className='text-center text-secondary font-medium text-sm sm:text-base'>Comprehensive Healthcare</p>
+        <p className='text-xl sm:text-2xl md:text-3xl text-center mt-2 font-semibold'>Our Medical Health Services</p>
 
         <div className='p-6 flex flex-col md:flex-row items-center justify-center gap-8 text-center'>
             <div className='rounded-lg py-2 px-6 shadow-lg text-left hover:scale-105 transition-all cursor-pointer hover:bg-primary hover:text-white group'>
