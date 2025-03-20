@@ -44,6 +44,7 @@ const faq = [
 ];
 
 const FAQ = () => {
+  // This state is used to store the index of the questions 
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleQuestion = (index) => {
@@ -52,7 +53,6 @@ const FAQ = () => {
 
   return (
     <div className="mt-10 px-4 sm:max-w-4xl md:max-w-5xl md:px-0 mx-auto">
-      {/* Headings (Always Centered) */}
       <p className="text-center text-secondary font-medium text-sm sm:text-base">
         Got Questions? We've Got Answers
       </p>
@@ -60,7 +60,7 @@ const FAQ = () => {
         Frequently Asked Questions
       </p>
 
-      {/* FAQ Section (Centered on Mobile, Left-Aligned on Larger Screens) */}
+      {/* FAQ Section */}
       <div className="mt-6 sm:max-w-xl mx-auto md:max-w-full">
         {faq.map((category, categoryIndex) => (
           <div className="mt-6" key={categoryIndex}>
@@ -78,7 +78,7 @@ const FAQ = () => {
                     className="flex justify-between items-center cursor-pointer py-2"
                     onClick={() => toggleQuestion(uniqueIndex)}
                   >
-                    <p className="font-medium text-sm sm:text-base">{question.q}</p>
+                    <p className="text-base md:text-lg ">{question.q}</p>
                     <FaChevronDown
                       className={`w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 ${
                         openIndex === uniqueIndex ? "rotate-180" : ""
