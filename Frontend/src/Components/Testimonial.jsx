@@ -1,4 +1,4 @@
-import React from "react";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -7,31 +7,31 @@ const TestimonialsData = [
   {
     id: 1,
     name: "Etornam",
-    text: "This place is great! The atmosphere is chill and cool. The staffs are really friendly. They know what they are doing and what they are talking about.",
+    text: "This place is amazing! The doctors were kind, patient, and explained everything clearly. I felt comfortable and confident in the care I received.",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
     name: "Debbie",
-    text: "This place is great! The atmosphere is chill and cool. The staffs are really friendly. They know what they are doing and what they are talking about.",
+    text: "From the moment I walked in, the staff made me feel at ease. The environment is clean and peaceful, and the nurses are very professional.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
     name: "Dorothy",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facilis quod maxime magnam.",
+    text: "I appreciate the attention to detail. The service was quick, and the team made sure I understood my diagnosis and next steps.",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 4,
     name: "Miguel",
-    text: "This place is great! The atmosphere is chill and cool. The staffs are really friendly. They know what they are doing and what they are talking about.",
+    text: "The care I received was exceptional. They truly listen to their patients and go above and beyond to make you feel supported.",
     img: "https://picsum.photos/103/103",
   },
   {
     id: 5,
     name: "Anni",
-    text: "This place is great! The atmosphere is chill and cool. The staffs are really friendly. They know what they are doing and what they are talking about.",
+    text: "This clinic stands out for its friendly staff and organized service. I felt like I was in good hands throughout the entire process.",
     img: "https://picsum.photos/102/102",
   },
 ];
