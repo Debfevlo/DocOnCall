@@ -1,4 +1,3 @@
-import React from 'react'
 
 const steps = [
 {
@@ -9,17 +8,17 @@ const steps = [
 {
   step: 2,
   title:'Search doctor',
-  message:'Quickly search for the doctor you need. Choose the one that fits your care.',
+  message:'Quickly search for the doctor you need. Choose the one that fits your care, your trust and confident',
 },
 {
   step: 3,
   title:"Check doctor's profile",
-  message:"View the doctor’s profile and credentials. Learn more before making your choice",
+  message:"View the doctor’s profile and credentials. Learn more before making choosing who to talk care of you",
 },
 {
   step: 4,
   title:'Schedule appointment',
-  message:'Book an appointment at your convenience. Choose the time that works for you',
+  message:'Book an appointment at your convenience. Choose the time suitable for you',
 },
 
 
@@ -27,7 +26,7 @@ const steps = [
 
 const ProcessGrid = () => {
   return (
-    <div className="space-y-12">
+    <div className="space-y-6 mt-6">
       <div className="text-center space-y-3">
         <p className="text-xs text-[#00695f]">FASTEST SOLUTION</p>
         <p className="md:text-xl font-medium">5 easy steps to get your solution</p>
