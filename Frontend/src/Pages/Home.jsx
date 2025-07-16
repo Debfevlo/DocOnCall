@@ -8,6 +8,7 @@ import Faq from '../Components/Faq';
 
 
 
+
 const Home = () => {
   
   return (
